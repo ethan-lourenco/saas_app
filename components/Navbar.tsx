@@ -1,8 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import NavItems from "./NavItems";
-import { SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
-import { SignedIn, SignedOut } from "@clerk/nextjs";
+import { SignInButton, UserButton, SignedIn, SignedOut } from "@clerk/nextjs";
 
 const Navbar = () => {
   return (
